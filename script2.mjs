@@ -48,3 +48,4 @@ const hilightStyle = { type: 'highlight', color: 'yellow', iterations: 1, multil
 const underlineStyle = { type: 'underline', color: 'red' };
 const circleStyle = { type: 'circle', color: 'blue', padding: 10 };
 const boxStyle = { type: 'box', color: 'orange' };
+applyToAllTag('span', hilightStyle)
