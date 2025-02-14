@@ -1,0 +1,150 @@
+
+@font-face {
+  font-family: 'Nofar';
+  src: url('./assets/DigiNofarBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hamideh';
+  src: url('./assets/Hamideh.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wavy-underline {
+  text-decoration: underline wavy red;
+}
+
+.polaroid {
+  width: 250px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'Nofar';
+  font-size: 24px;
+  color: #333;
+}
+
+.polaroid img {
+  width: 100%;
+  height: auto;
+}
+
+.polaroid-caption {
+  margin-top: 10px;
+}
+
+.notebook-container {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-image: url("./assets/images/paperboard-texture1.jpg");
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px; 
+}
+
+.notebook-container::before {
+  content: '';
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 60px;
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+.notebook-container::after {
+  content: '';
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 63px;
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+.notebook-content-top {
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.notebook-content-bottom {
+  padding-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.notebook-content {
+  padding-left: 40px;
+  padding-right: 90px;
+}
+
+.notebook-content h1 {
+  font-family: 'Nofar';
+  font-size: 32px;
+  text-align: center;
+  color: #333;
+}
+
+.notebook-content h2 {
+  font-family: 'Hamideh';
+  font-size: 32px;
+  color: #555;
+  text-align: right;
+  line-height: 40px;
+  margin-top: -20px;
+  padding-bottom: 10px;
+}
+
+
+.notebook-content-author {
+  display: block;
+  text-align: left;
+  font-family: 'Nofar';
+  font-size: 28px;
+  color: #333;
+  padding-right: 60px;
+  padding-bottom: 200px;
+}
+
+.polaroid {
+  width: 250px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  text-align: center;
+  font-family: 'Nofar';
+  font-size: 14px;
+  color: #333;
+}
+
+.polaroid img {
+  width: 100%;
+  height: auto;
+}
+
+.polaroid-caption {
+  margin-top: 10px;
+}
+
+.audio-player {
+  position: absolute;
+  top: 55px;
+  left: 55px;
+  text-align: center;
+  z-index: 2;
+}
+
+#audio {
+  width: 300px;
+}
+
+.notebook-content, .polaroid {
+  position: relative;
+  z-index: 1;
+}
