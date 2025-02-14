@@ -27,7 +27,7 @@ function updateDisplay(item) {
 
     if (item === ohyes) {
         setTimeout(() => {
-            window.location.href = "index.html"; // Change this to your actual page
+            window.location.href = "Valentino2.html"; // Change this to your actual page
         }, 2000); // 2000 milliseconds = 2 seconds
     }
 }
